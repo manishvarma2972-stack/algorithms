@@ -1,0 +1,18 @@
+step-1: start
+step-2: print "Table book.\n"
+step-3: Count = 1
+step-4: Counter = 2
+step-5: Table1 = Count
+step-6: Table2 = Table1 + 1
+step-7: print "Multiplication table for " + Table1 + "and " + Table2 = "\n"
+step-8: if (Counter <= 10)
+          Multiple1 = Counter * Table1
+          Multiple2 = Counter * Table2
+          print Counter + " x " + Table1 + " = " + Multiple1 + " " + 
+                Counter + " x " + Table2 = " = " + Multiple2 + "\n"
+          Counter = Counter + 1
+          goto step-8
+step-9: if (Count != 19)
+          Count = Count + 2
+          goto step-4
+step-10: stopo
