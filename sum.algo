@@ -1,0 +1,9 @@
+step-1: start
+step-2: print "To add two numbers.\n"
+step-3: print "Enter the first number: "
+step-4: read FirstNumber
+step-5: print "Enter the second number: "
+step-6: read SecondNumber
+step-7: Sum = FirstNumber + SecondNumber
+step-8: print "The sum of " + FirstNumber + " and " + SecondNumber + " is " + Sum + ".\n"
+step-9: stop
