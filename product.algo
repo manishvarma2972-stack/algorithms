@@ -7,5 +7,5 @@ step-6: read SecondNumber
 step-7: print "Enter the third number: "
 step-8: read ThirdNumber
 step-7: Product = FirstNumber * SecondNumber * ThirdNumber
-step-8: print "The product of " + FirstNumber + ", + SecondNumber + " and  " + ThirdNumber + " is " + Product + ".\n"
+step-8: print "The product of " + FirstNumber + ", " + SecondNumber + " and  " + ThirdNumber + " is " + Product + ".\n"
 step-9: stop
