@@ -1,0 +1,11 @@
+step-1: start
+step-2: print "To multiply three numbers.\n"
+step-3: print "Enter the first number: "
+step-4: read FirstNumber
+step-5: print "Enter the second number: "
+step-6: read SecondNumber
+step-7: print "Enter the third number: "
+step-8: read ThirdNumber
+step-7: Product = FirstNumber * SecondNumber * ThirdNumber
+step-8: print "The product of " + FirstNumber + ", + SecondNumber + " and  " + ThirdNumber + " is " + Product + ".\n"
+step-9: stop
