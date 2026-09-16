@@ -1,0 +1,11 @@
+step-1: start
+step-2: print "Which multiplication table you want to print? "
+step-3: read Multiplicant
+step-4: Multiplier = 1
+step-5: print "The multiplication table of " + Multiplicant + " is\n"
+step-6: if (Multiplier <= 10)
+          Multiple = Multiplicant * Multiplier
+          print Multiplicant + " * " + Multiplier + " = " + Multiple + "\n"
+          Multiplier = Multiplier + 1
+          goto step-6
+step-7: stop
