@@ -1,0 +1,16 @@
+step-1: start 
+step-2: print "To check whether the number is prime or not.\n"
+step-3: print "Enter the number: "
+step-4: read Number
+step-5: PrimeCounter = 2
+step-6: Square = PrimeCounter * Prime Counter
+step-7: if (Number = PrimeCounter]
+          goto step-10
+step-8: if (Number % PrimeCounter = 0)
+          print Number + " is not a prime number.\n"
+          goto step-11
+step-9: if (Square < Number)
+          PrimeCounter = PrimeCounter + 1
+          goto step-6
+step-10: print Number + " is a prime number.\n"
+step-11: stop
