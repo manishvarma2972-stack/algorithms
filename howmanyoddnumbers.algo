@@ -1,0 +1,13 @@
+step-1: start
+step-2: print "Up to which number you want to print odd numbers? "
+step-3: read Count
+step-4: Counter = 1
+step-5: print "The odd numbers up to " + Count + " are "
+step-6: print Counter
+step-7: Count = Count - 1
+step-8: Counter = Counter + 2
+step-9: if (Count > 0)
+          print ", "
+          goto step-6
+step-10: print ".\n"
+step-11: stop
