@@ -1,0 +1,13 @@
+step-1: start
+step-2: print "To compute N power N.\n"
+step-3: print "Enter the number: "
+step-4: read Number
+step-5: print Number + " power " + Number + " is "
+step-6: Result = 1
+step-7: Power = 0
+step-8: if (Power < Number)
+          Result = Result * Number
+          Power = Power + 1
+          goto step-8
+step-9: print Result + ".\n"
+step-10: stop
