@@ -6,7 +6,7 @@ step-5: print "The first " + Count + " terms in square series are "
 step-6: print SquareNumber
 step-7: SquareNumber = SquareNumber + 1
 step-8: SquareValue = SquareNumber * SquareNumber
-step-9: if (SquareNumber <= Count)
+step-9: if (SquareNumber <= Count):
           print ", " + SquareValue
           goto step-7
 step-10: print ".\n"
