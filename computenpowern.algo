@@ -5,7 +5,7 @@ step-4: read Number
 step-5: print Number + " power " + Number + " is "
 step-6: Result = 1
 step-7: Power = 0
-step-8: if (Power < Number)
+step-8: if (Power < Number):
           Result = Result * Number
           Power = Power + 1
           goto step-8
