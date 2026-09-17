@@ -1,0 +1,11 @@
+step-1: start
+step-2: print "To compare three numbers which one is the greatest.\n"
+step-3: print "Enter the first number: "
+step-4: read FirstNumber
+step-5: print "Enter the second number: "
+step-6: read SecondNumber
+step-7: if (FirstNumber > SecondNumber):
+          print FirstNumber + " is bigger than " + SecondNumber + ".\n"
+step-8: if (SecondNumber > FirstNumber):
+          print SecondNumber + " is bigger than " + FirstNumber + ".\n"
+step-9: stop
