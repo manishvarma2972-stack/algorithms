@@ -7,7 +7,7 @@ step-6: read Product
 step-7: Number1 = 0
 step-8: Number1 = Number1 + 1
 step-9: Number2 = Sum - Number1
-step-10: if (Number1 * Number2 != Product)
+step-10: if (Number1 * Number2 != Product):
            goto step-8
 step-11: print "The sum of two numbers is " + Sum + " and their product is " + Product + ". The two numbers are " + Number1 + " and " + Number2 + ".\n"
 step-12: stop
