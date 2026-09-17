@@ -3,9 +3,9 @@ step-2: print "How many multiples of 7 you want to print? "
 step-3: read Count
 step-4: Multiplier = 1
 step-5: print "The first " + Count + " multiples of 7 are "
-step-6: print (7 * Multiplier)
+step-6: print (7 * Multiplier):
 step-7: Count = Count - 1
-step-8: if (Count > 0)
+step-8: if (Count > 0):
           Multiplier = Multiplier + 1
           print ", "
           goto step-6
