@@ -6,12 +6,12 @@ step-5: print "The first " + Count + " terms in N power N series are " + Counter
 step-6: Counter = Counter + 1
 step-7: Result = 1
 step-8: Power = 0
-step-9: if (Power < Counter)
+step-9: if (Power < Counter):
           Result = Result * Counter
           Power = Power + 1
           goto step-9
 step-10: print ", " + Result
-step-11: if (Counter < Count)
+step-11: if (Counter < Count):
            goto step-6
 step-12: print ".\n"
 step-13: stop
