@@ -1,0 +1,15 @@
+step-1: start
+step-2: print "To compare three numbers which one is the greatest.\n"
+step-3: print "Enter the first number: "
+step-4: read FirstNumber
+step-5: print "Enter the second number: "
+step-6: read SecondNumber
+step-7: print "Enter the third number: "
+step-8: read ThirdNumber
+step-9: Maximum = FirstNumber
+step-10: if (Maximum < SecondNumber):
+           Maximum = SecondNumber
+step-11: if (Maximum < ThirdNumber):
+           Maximum = ThirdNumber
+step-12: print Maximum + " is greatest among " + FirstNumber + ", " + SecondNumber + " and " + ThirdNumber + ".\n"
+step-13: stop
