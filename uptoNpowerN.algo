@@ -6,11 +6,11 @@ step-5: print "The N power N series up to " + Count + " is " + Counter
 step-6: Counter = Counter + 1
 step-7: Result = 1
 step-8: Power = 0
-step-9: if (Power < Counter)
+step-9: if (Power < Counter):
           Result = Result * Counter
           Power = Power + 1
           goto step-9
-step-10: if (Result <= Count)
+step-10: if (Result <= Count):
            print ", " + Result
            goto step-6
 step-11: print ".\n"
