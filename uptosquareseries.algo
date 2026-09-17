@@ -2,10 +2,10 @@ step-1: start
 step-2: print "Up to which number you want to print square series? "
 step-3: read Count
 step-4: SquareNumber = 1
-step-5: print "The square series up to " + Count + " is "
+step-5: print "The square series up to " + Count + " is " + SquareNumber
 step-6: SquareNumber = SquareNumber + 1
 step-7: SquareValue = SquareNumber * SquareNumber
-step-8: if (SquareValue <= Count)
+step-8: if (SquareValue <= Count):
           print ", " + SquareValue
           goto step-6
 step-9: print ".\n"
